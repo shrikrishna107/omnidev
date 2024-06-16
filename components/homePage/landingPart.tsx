@@ -9,10 +9,10 @@ const landingPart = () => {
         <div>
             <div className='relative'>
                 <div className="border-3 border-black dark:border-white py-20 mb-5 text-5xl font-serif text-right animate-appearance-in transition duration-250 rounded-3xl bg-purple-600 text-white shadow-xl hover:shadow-gray-600 ">
-                    <div className=' border-2 border-purple-600 max-w-[600px] absolute left-10'>
+                    <div className=' border-2 border-purple-600 max-w-[600px] absolute left-10 animate-from-left'>
                         <Image src={Promo} alt='Promo' height={500} width={500} className=''></Image>
                     </div>
-                    <div className=' mr-[300px] animate-from-left  font-medium'>
+                    <div className=' mr-[300px] animate-from-left font-medium'>
                         OmniDev
                     </div>
                     <div className=' text-sm mr-52'>
