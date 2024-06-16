@@ -9,9 +9,10 @@ import { Button, ButtonGroup } from "@nextui-org/button";
 export default function Home() {
     return (
         <div className=''>
+            <div className=' flex justify-center mt-36 mb-5 text-3xl font-serif font-medium'>🗲Register now🗲</div>
             <div className='flex items-center justify-center gap-10'>
                 <div>
-                    <div className='border-3 border-black dark:border-white h-96 w-80 mt-40 font-serif text-center text-2xl rounded-lg transition duration-250 animate-from-left shadow-xl hover:shadow-gray-600'>
+                    <div className='border-3 border-black dark:border-white h-96 w-80 font-serif text-center text-2xl rounded-lg transition duration-250 animate-from-left shadow-xl hover:shadow-gray-600'>
                         <div className=' font-bold'>Android Development</div>
                         <div className=' text-lg text-left ml-3 mb-3 mt-4 mr-3 animate-text-left '>
                             Android development is all about creating apps for the world's most popular mobile operating system.  In this realm, you'll use Kotlin to build interactive apps and leverage Android Studio to bring your ideas to life.  Get ready to design user interfaces, understand core concepts, and integrate features users love!</div>
@@ -24,7 +25,7 @@ export default function Home() {
 
                 </div>
 
-                <div className='border-3 border-black dark:border-white h-96 w-80 mt-40 font-serif text-center text-2xl rounded-lg transition duration-250 animate-appearance-in shadow-xl hover:shadow-gray-600'>
+                <div className='border-3 border-black dark:border-white h-96 w-80 font-serif text-center text-2xl rounded-lg transition duration-250 animate-appearance-in shadow-xl hover:shadow-gray-600'>
                     <div className='font-bold'>Cloud Computing</div>
 
                     <div className=' text-medium text-left mb-1 ml-3 mt-4 mr-3 animate-appearance-in'>
@@ -38,7 +39,7 @@ export default function Home() {
 
                 </div>
 
-                <div className=' border-3 border-black dark:border-white h-96 w-80 mt-40 font-serif text-center text-2xl rounded-lg transition duration-250 animate-from-right shadow-xl hover:shadow-gray-600'>
+                <div className=' border-3 border-black dark:border-white h-96 w-80 font-serif text-center text-2xl rounded-lg transition duration-250 animate-from-right shadow-xl hover:shadow-gray-600'>
                     <div className='font-bold '>ReactJS</div>
 
                     <div className=' text-medium text-left mb-[75px] ml-3 mr-3 mt-4 animate-text-right '>
