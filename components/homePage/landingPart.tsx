@@ -14,7 +14,7 @@ const landingPart = () => {
                     </div>
                 </div>
 
-                <div className=' animate-from-left text-xl mt-14 ml-40'>Forget boring apps! This course is your mobile app development, cloud computing, and ReactJS bootcamp!  Build feature-rich Android apps, conquer cloud storage and scalability, and design UIs that wow - all in one action-packed program.  Become a tech triple threat and watch your career skyrocket!</div>
+                <div className=' animate-from-left text-xl mt-14 ml-40'>Forget college! This course is your app development, cloud computing, and ReactJS bootcamp!  Build feature-rich Android apps, conquer cloud storage and scalability, and design UIs that wow - all in one action-packed program.  Become a tech triple threat and watch your career skyrocket!</div>
 
             </div>
 
