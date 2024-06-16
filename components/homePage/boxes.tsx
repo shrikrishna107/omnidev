@@ -9,7 +9,7 @@ import { Button, ButtonGroup } from "@nextui-org/button";
 export default function Home() {
     return (
         <div className=''>
-            <div className=' flex justify-center mt-36 mb-5 text-3xl font-serif font-medium'>🗲Register now🗲</div>
+            <div className=' flex justify-center mt-20 mb-10 animate-from-right text-3xl font-serif font-medium'>🗲Register now🗲</div>
             <div className='flex items-center justify-center gap-10'>
                 <div>
                     <div className='border-3 border-black dark:border-white h-96 w-80 font-serif text-center text-2xl rounded-lg transition duration-250 animate-from-left shadow-xl hover:shadow-gray-600'>
