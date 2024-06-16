@@ -8,60 +8,31 @@ export default function Home() {
     return (
         <div className=''>
             <div className='flex items-center justify-center gap-10'>
-                <div className='border-2 h-96 w-80 mt-40 font-serif text-center text-2xl rounded-lg transition duration-250 animate-from-left shadow-xl hover:shadow-gray-600'>
-                    Android Development
-                    <div className="image-container rounded-lg" style={{ position: 'relative', opacity: 0.5}}>
-                        <Image
-                            src={Ashwin}
-                            alt="Ashwin"
-                            layout="fill"
-                            objectFit="cover"
-                            placeholder='blur'
-                            blurDataURL='{Ashwin}'
-                            
-                        />
-                        <div className='mt-80 right-0 mr-8 font-serif text-xs text-black font-black absolute top-1'>-with Ashwin</div>
-                    </div>
-
-                    {/* <div className='mt-10 text-right mr-5 font-serif text-xs'>-with Ashwin</div> */}
+                <div className='border-3 border-black dark:border-white h-96 w-80 mt-40 font-serif text-center text-2xl rounded-lg transition duration-250 animate-from-left shadow-xl hover:shadow-gray-600'>
+                    <div className=' font-bold'>Android Development</div>
+                    <div className=' text-lg text-left ml-3 mt-4 mr-3 animate-text-left '>
+                        Android development is all about creating apps for the world's most popular mobile operating system.  In this realm, you'll use Kotlin to build interactive apps and leverage Android Studio to bring your ideas to life.  Get ready to design user interfaces, understand core concepts, and integrate features users love!</div>
                 </div>
 
-                <div className='border-2 h-96 w-80 mt-40 font-serif text-center text-2xl rounded-lg transition duration-250 animate-appearance-in shadow-xl hover:shadow-gray-600'>
-                    Cloud Computing
+                <div className='border-3 border-black dark:border-white h-96 w-80 mt-40 font-serif text-center text-2xl rounded-lg transition duration-250 animate-appearance-in shadow-xl hover:shadow-gray-600'>
+                    <div className='font-bold'>Cloud Computing</div>
 
-                    <div className="image-container" style={{ position: 'relative', opacity:0.5 }}>
-                        <Image
-                            src={Sahil}
-                            alt="Sahil"
-                            layout="fill"
-                            objectFit="cover"
-                        />
-
-                        <div className='mt-80 right-0 mr-8 font-serif text-xs text-black font-black absolute top-1'>-with Sahil</div>
-                    </div>
-
-                    {/* <div className='mt-10 text-right mr-5 font-serif text-xs'>-with Sahil</div> */}
-                </div>
-
-                <div className='border-2 h-96 w-80 mt-40 font-serif text-center text-2xl rounded-lg transition duration-250 animate-from-right shadow-xl hover:shadow-gray-600'>
-                    ReactJS
-
-                    <div className="image-container" style={{ position: 'relative', opacity: 0.5}} >
-                        <Image
-                            src={Shri}
-                            alt="Shri"
-                            layout="fill"
-                            objectFit="cover"
-                        />
-
-                        <div className='mt-80 right-0 mr-8 font-serif text-xs text-black font-black absolute top-1'>-with Shri</div>
-                        
-                    </div>
+                    <div className=' text-medium text-left ml-3 mt-4 mr-3 animate-appearance-in'>
+                    
+Dive into the world of cloud computing! This course unveils how to ditch bulky servers and expensive software. Instead, access computing power like storage, databases, and even applications – all on-demand over the internet.  This cloud magic allows you to scale resources up or down as needed, saving costs and enabling work from anywhere.  Get ready to explore the benefits of scalability, cost-efficiency, and ultimate accessibility – the hallmarks of cloud computing!</div>
 
                 </div>
+
+                <div className=' border-3 border-black dark:border-white h-96 w-80 mt-40 font-serif text-center text-2xl rounded-lg transition duration-250 animate-from-right shadow-xl hover:shadow-gray-600'>
+                    <div className='font-bold '>ReactJS</div>
+
+                    <div className=' text-medium text-left ml-3 mr-3 mt-4 animate-text-right '>
+                    Unleash your inner web developer! This course equips you with the essential tools to build websites you use every day.  Learn HTML, the structural foundation, CSS, the designer's toolkit for styling, and JavaScript, the wizard behind website interactivity. With this powerful trio, you'll be ready to transform your web ideas into reality!
+                    </div>
+                </div>
+
+            </div>
             </div>
 
-        </div>
-
-    );
+            );
 }
