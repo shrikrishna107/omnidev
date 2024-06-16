@@ -26,6 +26,4 @@ const landingPart = () => {
         </div>
     )
 }
-
-
 export default landingPart
